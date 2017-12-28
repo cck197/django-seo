@@ -1,12 +1,5 @@
 #!/usr/bin/env python2.5
 # -*- coding: UTF-8 -*-
-
-try:
-    import ez_setup
-    ez_setup.use_setuptools()
-except ImportError:
-    pass
-
 from setuptools import setup, find_packages
 
 setup(
